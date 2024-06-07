@@ -19,7 +19,7 @@ pipeline {
       }
     }
 
-    stage ('Deploy') {
+    stage ('Deploy with select parameters') {
         input {
             message "Enter parameters"
             parameters {
