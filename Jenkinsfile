@@ -3,8 +3,21 @@ pipeline {
   stages {
     stage('Building') {
       steps {
-        sh 'cat index.php'
+        echo 'Building'
       }
     }
+
+    stage('Testing') {
+      steps {
+        echo 'Testing'
+      }
+    }
+
+    stage('Deploying') {
+      steps {
+        echo 'Deploying'
+      }
+    }
+
   }
 }
