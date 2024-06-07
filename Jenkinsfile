@@ -19,9 +19,9 @@ pipeline {
       }
     }
 
-    stage('Over Again') {
+    stage('Over') {
       steps {
-        sh 'echo "Over"'
+        echo 'Hello'
       }
     }
 
